@@ -20,6 +20,7 @@ a:focus, a:hover {
 section{
 	width:525px;
 	float: right;
+	padding: 0 20px 20px 20px;
 }
 /* the styles for the header */
 header {
@@ -51,18 +52,14 @@ header img {
 }
 /* the styles for the main content */
 main {
-	clear: left;
+	padding: 0;
 }
-main {
-	padding: 0 30px;
+section h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
 }
-main h1 {
-	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
-}
-main h2 {
+aside h2 {
 	color: #800000;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
@@ -71,20 +68,20 @@ main h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-main img {
+aside img {
 	padding-bottom: 1em;
 }
 main p {
 	padding-bottom: .5em;
 }
-main blockquote {
+section blockquote {
 	padding: 0 2em;
 	font-style: italic;
 }
-main ul {
+section ul {
 	padding: 0 0 .25em 1.25em;
 }
-main li {
+section li {
 	padding-bottom: .35em;
 }
 
@@ -106,6 +103,8 @@ article h3 {
 aside{
 	width: 215px;
 	float:right;
+	padding-left:20px;
+	padding-bottom:20px;
 }
 aside h3 {
 	font-size: 105%;
