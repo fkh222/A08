@@ -54,6 +54,11 @@ header img {
 main {
 	padding: 0;
 }
+h1 {
+	font-size:150%;
+	padding: .5em 0 .25em;
+	margin:0;
+}
 section h2 {
 	color: #800000;
 	font-size: 130%;
@@ -97,6 +102,11 @@ article h2 {
 article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
+}
+article  img{
+	float:right;
+	margin: 20px 0 20px 20px;
+	border:1px black;
 }
 
 /* the styles for the aside */
