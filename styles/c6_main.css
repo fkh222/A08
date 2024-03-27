@@ -54,10 +54,11 @@ header img {
 main {
 	padding: 0;
 }
-h1 {
+aside h1 {
 	font-size:150%;
 	padding: .5em 0 .25em;
 	margin:0;
+	color: #800000;
 }
 section h2 {
 	color: #800000;
